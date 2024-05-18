@@ -1,7 +1,10 @@
 import app from "./app.js";
 
+
 // using cloudinary we can send files
 import  cloudinary from "cloudinary";
+require("dotenv").config
+
 
 cloudinary.v2.config({
     cloud_name: process.env.CLOUDINARY_CLIENT_NAME,

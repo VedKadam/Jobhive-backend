@@ -1,2 +1,4 @@
-node_modeules
-config
+/node_modules
+
+config/config.env
+.env
